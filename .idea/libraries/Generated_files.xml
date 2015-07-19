@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$USER_HOME$/Code/cordova/ionCordova/www/js/login.js" />
+        <item url="file://$USER_HOME$/Code/cordova/ionCordova/www/js/controllers.js" />
+        <item url="file://$USER_HOME$/Code/cordova/ionCordova/www/js/app.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$USER_HOME$/Code/cordova/mojio-js-cordova-example-oauth2/www/js/login.js" />
+      <root url="file://$USER_HOME$/Code/cordova/mojio-js-cordova-example-oauth2/www/js/controllers.js" />
+      <root url="file://$USER_HOME$/Code/cordova/mojio-js-cordova-example-oauth2/www/js/app.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

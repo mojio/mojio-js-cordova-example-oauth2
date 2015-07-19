@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ionCordova.iml" filepath="$PROJECT_DIR$/.idea/ionCordova.iml" />
+      <module fileurl="file://$USER_HOME$/Code/cordova/mojio-js-cordova-example-oauth2/.idea/ionCordova.iml" filepath="$USER_HOME$/Code/cordova/mojio-js-cordova-example-oauth2/.idea/ionCordova.iml" />
     </modules>
   </component>
 </project>
