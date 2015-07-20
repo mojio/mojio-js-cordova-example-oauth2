@@ -19,10 +19,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         if (window.StatusBar)
             # org.apache.cordova.statusbar required
             StatusBar.styleDefault()
-
+        console.log("Set root scope data:")
         $rootScope.data =
             loggedIn: false
-        #LoginService.login()
+        LoginService.login()
     )
 )
 

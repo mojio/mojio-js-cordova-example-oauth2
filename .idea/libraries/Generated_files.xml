@@ -2,15 +2,30 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$USER_HOME$/Code/cordova/ionCordova/www/js/login.js" />
-        <item url="file://$USER_HOME$/Code/cordova/ionCordova/www/js/controllers.js" />
-        <item url="file://$USER_HOME$/Code/cordova/ionCordova/www/js/app.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/test/fixtures/test.js" />
+        <item url="file://$PROJECT_DIR$/www/js/app.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/gulp-tap/src/tap.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/resolve/test/resolver/cup.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/resolve/test/resolver/mug.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/gulp-coffee/test/fixtures/grammar.js" />
+        <item url="file://$PROJECT_DIR$/www/js/controllers.js" />
+        <item url="file://$PROJECT_DIR$/gulpfile.js" />
+        <item url="file://$PROJECT_DIR$/www/js/login.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$USER_HOME$/Code/cordova/mojio-js-cordova-example-oauth2/www/js/login.js" />
-      <root url="file://$USER_HOME$/Code/cordova/mojio-js-cordova-example-oauth2/www/js/controllers.js" />
-      <root url="file://$USER_HOME$/Code/cordova/mojio-js-cordova-example-oauth2/www/js/app.js" />
+      <root url="file://$PROJECT_DIR$/../mojio-js-cordova-example-oauth2/www/js/login.js" />
+      <root url="file://$PROJECT_DIR$/../mojio-js-cordova-example-oauth2/www/js/controllers.js" />
+      <root url="file://$PROJECT_DIR$/../mojio-js-cordova-example-oauth2/www/js/app.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/gulp/node_modules/vinyl-fs/node_modules/glob-watcher/test/fixtures/test.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/gulp-tap/src/tap.js" />
+      <root url="file://$PROJECT_DIR$/www/js/app.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/resolve/test/resolver/cup.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/gulp-coffee/test/fixtures/grammar.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/gulp/node_modules/liftoff/node_modules/resolve/test/resolver/mug.js" />
+      <root url="file://$PROJECT_DIR$/www/js/controllers.js" />
+      <root url="file://$PROJECT_DIR$/gulpfile.js" />
+      <root url="file://$PROJECT_DIR$/www/js/login.js" />
     </CLASSES>
     <SOURCES />
   </library>

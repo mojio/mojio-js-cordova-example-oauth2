@@ -8,21 +8,30 @@
     login = function() {
       var clientId, ref;
       clientId = "576f5522-9b0c-4f1a-82d4-4b4fbb7272bc";
-      ref = window.open('https://api.moj.io/OAuth2/authorize?client_id=' + clientId + '&redirect_uri=http://localhost/callback&response_type=token', '_blank', 'location=no,presentationstyle=fullscreen,hardwareback=no');
-      ref.addEventListener('exit', function(event) {});
-      return ref.addEventListener('loadstart', function(event) {
-        console.log('Login Result: ');
+      ref = window.open('https://api.moj.io/OAuth2/authorize?client_id=' + clientId + '&redirect_uri=http://localhost/callback&response_type=token', '_blank', 'location=no,presentationstyle=fullscreen,hardwareback=no,clearsessioncache=yes,clearcache=yes');
+      ref.addEventListener('loadstart', function(event) {
         if (event.url.indexOf("http://localhost/callback") === 0) {
+          ref.removeEventListener("exit", (function(event) {}));
+          ref.close();
           console.log("Event url: " + event.url);
           if (event.url.indexOf("access_token=") >= 0) {
+            if ($rootScope.data == null) {
+              $rootScope.data = {};
+            }
             $rootScope.data.LoggedIn = true;
-            $rootScope.$apply((function() {
+            return $rootScope.$apply((function() {
               return data.token = event.url.split("access_token=")[1].split("&")[0];
             }));
-            return ref.close();
           }
         }
       });
+      ref.addEventListener('loadstop', function() {
+        return console.log('Load Stop!');
+      });
+      ref.addEventListener('exit', function(event) {
+        return console.log('Exit! ');
+      });
+      return console.log('Login setup complete. ');
     };
     logout = function() {
       var clientId, ref;

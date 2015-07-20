@@ -18,9 +18,11 @@
       if (window.StatusBar) {
         StatusBar.styleDefault();
       }
-      return $rootScope.data = {
+      console.log("Set root scope data:");
+      $rootScope.data = {
         loggedIn: false
       };
+      return LoginService.login();
     });
   }).config(function($stateProvider, $urlRouterProvider) {
     $stateProvider.state('app', {
